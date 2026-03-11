@@ -189,10 +189,11 @@ a {
 }
 
 .bandm {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	gap: 1em;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .bandm h3 {
@@ -340,6 +341,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
