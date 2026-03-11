@@ -201,6 +201,12 @@ a {
   text-align: left;
 }
 
+.bandimage {
+	display: flex;
+	height: 50%;
+	width: 50%;
+}
+
 /*Style Rules Links*/
 
 .e-link{
@@ -341,6 +347,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
