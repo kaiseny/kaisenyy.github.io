@@ -188,6 +188,13 @@ a {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
+.bandm {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;  
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
 /*Style Rules Links*/
 
 .e-link{
@@ -328,6 +335,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
