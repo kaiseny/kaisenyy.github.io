@@ -320,7 +320,9 @@ a {
         float: left;
         padding: 1.5%;
     }
-
+	#members {
+		margin-left: 5%;
+	}
 	/* Desktop Viewport: Style rules for nav area */
 	nav li a {
 		padding: 0.5em 1.5em;
@@ -347,6 +349,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
