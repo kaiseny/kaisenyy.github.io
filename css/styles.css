@@ -13,14 +13,11 @@ h1, h2, h3, h4, h5, p, ul, ol, li, a, img,  {
     border: 0;
 }
 
-/* Style rule for images */
-
+/*Style rules for body and images*/
 img {
     max-width: 100%;
     display: block;
 }
-
-/* Body Style Rules */
 
 body {
     color: #000000; 
@@ -28,8 +25,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header Style Rules */
-
+/*Style rules for header area*/
 header {
     background-color: #ffffff; 
     color: #000000;
@@ -50,8 +46,7 @@ header h3 {
     height: auto;
 }
 
-/* Nav Styles */
-
+/*Style rules for navigation area*/
 nav {
     background-color: #3f5e3e;
 }
@@ -79,8 +74,7 @@ nav li a {
     padding: 0.5em 2em;
 }
 
-/* main style */
-
+/*Style rules for main content*/
 main {
     padding: 2%;
     font-family: "Roboto", sans-serif;
@@ -95,8 +89,7 @@ main ul {
   list-style-type: none;
 }
 
-/* Footer Style */
-
+/*Style rules for footer content*/
 footer {
     font-family: "IBM Plex Sans KR", sans-serif;; 
     background-color: #3f5e3e;
@@ -112,12 +105,29 @@ a {
     text-decoration: none;
 }
 
-/* ID selector */
-
+/*Style rules for class and id selectors*/
 .contact {
     text-align: center;
     font-weight: bold;
     color: #fff;
+}
+
+#contact {
+    text-align: center;
+}
+
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    color: #f6eee4;
+    font-weight: bold;
 }
 
 .homeimg {
@@ -126,8 +136,6 @@ a {
   height: 75%;
   margin: auto
 }
-
-/* Style Rules Albums */
 
 .album {
   display: flex;
@@ -320,5 +328,6 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
