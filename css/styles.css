@@ -306,8 +306,15 @@ a {
 
 	.members{
     display: flex;
-    gap: 30px;          
+    gap: 30px;  
+    flex-direction: column;
+    align-items: center;        
 	}
+
+    .bandm {
+        width: 90%;
+        max-width: 320px;
+    }
 }
 
 
@@ -361,6 +368,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
