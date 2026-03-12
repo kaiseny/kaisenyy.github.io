@@ -202,7 +202,6 @@ a {
 }
 
 .bandimage {
-	display: flex;
 }
 
 .members {
@@ -351,6 +350,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
