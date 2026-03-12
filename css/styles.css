@@ -297,6 +297,11 @@ a {
     nav li a {
         padding: 0.5em;
     }
+
+	.members{
+    display: flex;
+    gap: 30px;          
+	}
 }
 
 
@@ -350,6 +355,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
