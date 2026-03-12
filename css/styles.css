@@ -205,10 +205,15 @@ a {
 }
 
 .member {
-	align-items: center;        
+	display: block;
+	align-items: center;
 }
 
-.members{
+.member ul {
+	text-align: left;
+}
+
+.members {
     display: flex;
     gap: 30px;  
     flex-direction: column;
@@ -366,6 +371,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
