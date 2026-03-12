@@ -264,6 +264,12 @@ a {
     	font-family: Arial, sans-serif;;
 	}
 
+	.members {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+	}
+
 /*Style rules for Albums*/
 .album {
     display: flex;
@@ -355,6 +361,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
