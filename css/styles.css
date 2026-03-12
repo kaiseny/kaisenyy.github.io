@@ -355,10 +355,6 @@ a {
         border-style: none;
         overflow: auto;
     }
-
-	article {
-        width: 27%;
-        height: 140px;
 	
 	/* Desktop Viewport: Style rules for nav area */
 	nav li a {
@@ -387,6 +383,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
