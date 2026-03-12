@@ -217,6 +217,7 @@ a {
 }
 
 .bandimage {
+	align-items: center;	
 }
 
 .member {
@@ -236,8 +237,6 @@ a {
     flex-direction: column;
     align-items: center;        
 }
-
-/*Style Rules Links*/
 
 .e-link{
   margin: 20px auto 0;     
@@ -264,12 +263,6 @@ a {
 
 #list a {
   text-decoration: underline;
-}
-
-.back2 {
-    background-color: #f4f4f4;
-    padding: 1%;
-    margin: 5px 5px;
 }
   
 /*Style rules for mobile viewport*/
@@ -387,6 +380,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
