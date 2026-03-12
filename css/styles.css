@@ -90,8 +90,7 @@ main ul {
 }
 
 article {
-    background-color: #a22c02;
-    color: #ffe5dc;
+    background-color: #f4f4f4;
     padding: 2%;
     margin: 2% 1%;
     border: 1px solid #000;
@@ -383,6 +382,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
