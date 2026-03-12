@@ -278,7 +278,7 @@ a {
 
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 650px), print {
+@media screen and (min-width: 720px), print {
     /* Tablet Viewport: Show tab-desk class, hide mobile class */
     .tab-desk {
         display: block;
@@ -359,6 +359,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
