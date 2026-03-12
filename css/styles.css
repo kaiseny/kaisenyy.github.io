@@ -303,18 +303,6 @@ a {
     	width: 100%;
 	}
 
-	/*Style rules for Members*/
-	.members{
-    	display: flex;
-        width: 85%;
-        max-width: 320px;     
-	}
-
-	.member {
-    	flex-direction: column;
-    	align-items: center;
-	}
-
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 720px), print {
     /* Tablet Viewport: Show tab-desk class, hide mobile class */
@@ -334,11 +322,6 @@ a {
     /* Style rule for nav li a */
     nav li a {
         padding: 0.5em;
-    }
-
-    .bandm {
-        width: 90%;
-        max-width: 320px;
     }
 }
 
@@ -386,6 +369,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
