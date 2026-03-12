@@ -100,6 +100,10 @@ article h3 {
 	text-align: left;
 }
 
+article p {
+	text-align: left;
+}
+
 /*Style rules for footer content*/
 footer {
     font-family: "IBM Plex Sans KR", sans-serif;; 
@@ -382,6 +386,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
