@@ -264,17 +264,17 @@ a {
     	font-family: Arial, sans-serif;;
 	}
 
-/*Style rules for Albums*/
-.album {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
+	/*Style rules for Albums*/
+	.album {
+    	display: flex;
+    	flex-direction: column;
+    	gap: 1em;
+	}
 
-.album-cover,
-.album-info {
+	.album-cover,
+	.album-info {
     width: 100%;
-}
+	}
 
 
 /* Media Query for Tablet Viewport */
@@ -299,10 +299,10 @@ a {
     }
 
 	.members{
-    display: flex;
-    gap: 30px;  
-    flex-direction: column;
-    align-items: center;        
+    	display: flex;
+    	gap: 30px;  
+    	flex-direction: column;
+    	align-items: center;        
 	}
 
     .bandm {
@@ -327,19 +327,16 @@ a {
         border-style: none;
         overflow: auto;
     }
-
-    .col-content {
-        width: 46%;
-        float: left;
-        padding: 1.5%;
-    }
+	
 	#members {
 		margin-left: 5%;
 	}
+	
 	/* Desktop Viewport: Style rules for nav area */
 	nav li a {
 		padding: 0.5em 1.5em;
 	}
+	
 	nav li a:hover {
 		color: #3f5e3e;
 		background-color: #fff;
@@ -362,6 +359,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
