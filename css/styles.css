@@ -101,7 +101,7 @@ article h3 {
 }
 
 article p {
-	text-align: left;
+	max-width: 800px;
 }
 
 /*Style rules for footer content*/
@@ -386,6 +386,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
