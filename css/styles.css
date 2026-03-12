@@ -89,6 +89,18 @@ main ul {
   list-style-type: none;
 }
 
+article {
+    background-color: #a22c02;
+    color: #ffe5dc;
+    padding: 2%;
+    margin: 2% 1%;
+    border: 1px solid #000;
+}
+
+article h3 {
+	text-align: left;
+}
+
 /*Style rules for footer content*/
 footer {
     font-family: "IBM Plex Sans KR", sans-serif;; 
@@ -254,14 +266,6 @@ a {
     padding: 1%;
     margin: 5px 5px;
 }
-
-article {
-    background-color: #a22c02;
-    color: #ffe5dc;
-    padding: 2%;
-    margin: 2% 1%;
-    border: 1px solid #000;
-}
   
 /*Style rules for mobile viewport*/
 
@@ -379,6 +383,7 @@ article {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
