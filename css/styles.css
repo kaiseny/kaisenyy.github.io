@@ -254,6 +254,14 @@ a {
     padding: 1%;
     margin: 5px 5px;
 }
+
+article {
+    background-color: #a22c02;
+    color: #ffe5dc;
+    padding: 2%;
+    margin: 2% 1%;
+    border: 1px solid #000;
+}
   
 /*Style rules for mobile viewport*/
 
@@ -371,6 +379,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
