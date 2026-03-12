@@ -295,25 +295,25 @@ a {
 	.album {
     	display: flex;
     	flex-direction: column;
-    	gap: 1em;
+    	gap: 30px;
 	}
 
 	.album-cover, .album-info {
     	width: 100%;
 	}
 
-.members{
-    display: flex;
-    gap: 30px;  
-    flex-direction: column;
-    align-items: center;        
-}
+	/*Style rules for Members*/
+	.members{
+    	display: flex;
+    	gap: 30px;  
+    	flex-direction: column;
+    	align-items: center;        
+	}
 
-.member {
-    flex-direction: column;
-    align-items: center;
-}
-
+	.member {
+    	flex-direction: column;
+    	align-items: center;
+	}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 720px), print {
@@ -386,6 +386,7 @@ a {
 }
 
     colors #3f5e3e, #768d57, #d29538, #896626); 
+
 
 
 
