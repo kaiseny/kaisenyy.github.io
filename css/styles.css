@@ -307,20 +307,19 @@ a {
 		position: relative;
 		max-width: 275px;
 		margin: 2% auto;
-		border: 8px solid #3f5e3e;
+		border: 4px solid #3f5e3e;
 	}
 
 	figcaption {
 		position: absolute;
 		bottom: 0;
-		background: rgba(55, 54, 132, 0.7);
+		background: rgba();
 		color: #000;
 		width: 100%;
-		padding: 5% 0;
+		padding: 2% 0;
 		text-align: center;
 		font-family: Verdana, Arial, sans-serif;
 		font-size: 1.5em;
-		font-weight: bold;
 	}
 
 /* Media Query for Tablet Viewport */
