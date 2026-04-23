@@ -339,6 +339,22 @@ a {
         font-size: 1.25em;
     }
 
+	/* Tablet Viewport: Style rule for form element */
+	form {
+		width: 70%;
+		margin: 0px auto;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr; 
+		grid-gap: 20px;
+	}
+
+	aside {
+		grid-column: 1 / span 2;
+	}
+
     /* Style rule for nav li a */
     nav li a {
         padding: 0.5em;
