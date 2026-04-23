@@ -7,7 +7,7 @@ Date: 02/14/2026
 /* CSS Reset */
 
 html, body, header, nav, main, footer, div, section, article,
-h1, h2, h3, h4, h5, p, ul, ol, li, a, img,  {
+h1, h2, h3, h4, h5, p, ul, ol, li, a, img, figure, figcaption  {
     margin: 0;
     padding: 0;
     border: 0;
@@ -304,22 +304,15 @@ a {
 	}
 
 	figure {
-		position: relative;
-		max-width: 300px;
-		margin: 2% auto;
 		border: 4px solid #3f5e3e;
+    	box-shadow: 6px 6px 10px #000;
+    	max-width: 400px;
+    	margin: 2% auto;
 	}
 
 	figcaption {
-		position: absolute;
-		bottom: 0;
-		background: rgba();
-		color: #000;
-		width: 100%;
-		padding: 2% 0;
-		text-align: center;
-		font-family: Verdana, Arial, sans-serif;
-		font-size: 1.5em;
+    	padding: 2%;
+    	border-top: 4px solid #3f5e3e;
 	}
 
 /* Media Query for Tablet Viewport */
