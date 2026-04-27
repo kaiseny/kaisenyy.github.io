@@ -145,12 +145,33 @@ a {
     font-weight: bold;
 }
 
-.homeimg {
-  display: flex;
-  width: 75%;
-  height: 75%;
-  margin: auto
+.home-links {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    flex-wrap: wrap;
 }
+
+.home-links img {
+    width: 250px;
+    height: auto;
+    display: block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+border: 3px;
+  border-style: solid;
+  border-color: #768d57;
+
+}
+
+.home-links a:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.home-links a {
+    display: inline-block;
+}
+
 
 .album {
     display: flex;
