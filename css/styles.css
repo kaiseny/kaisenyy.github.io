@@ -153,11 +153,22 @@ a {
 }
 
 .album {
-  display: flex;
-  align-items: flex-start;
-  gap: 50px;            
-  margin-bottom: 50px;  
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.album-info {
+    max-width: 600px;
+}
+
+.album-info h3 {
+    margin-top: 0;
+	text-align: left;
+}
+
+.album-info ol {
+    padding-left: 20px;
 }
 
 .cover {
@@ -165,15 +176,6 @@ a {
   height: 300px;
   display: block;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-
-.album h3 {
-  margin-top: 0;
-  text-align: left;
-}
-
-.album-info ol li {
-  padding-right: 20px;
 }
 
 .round {
