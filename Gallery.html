@@ -53,11 +53,19 @@ Date: 02/01/2026
         <h2>Welcome to the Brave Little Abacus Fan Site!</h2>
         <hr>
         <p>This website is dedicated to celebrating the music, history, and legacy of the band. </p>
-        <img src="images/home.jpg" alt="collage" class="homeimg round">
     </div>
 
-</div>
-    
+    <section class="gallery-thumbs">
+        <img src="images/live1.jpg" alt="Band photo" onclick="changeImage('images/live1.jpg', 'Band Photo')">
+        <img src="images/live2.jpg" alt="Live at the Middle East (Upstairs) in Cambridge, MA on July 11th, 2010." onclick="changeImage('images/live2.jpg', 'Live at the Middle East (Upstairs) in Cambridge, MA on July 11th, 2010.')">
+        <img src="images/gallery3.png" alt="Recording" onclick="changeImage('images/gallery3.png', 'Recording')">
+        <img src="images/gallery4.jpg" alt="Concert flyer" onclick="changeImage('images/gallery4.jpg', 'Concert Flyer')">
+    </section>
+
+    <section class="gallery-display">
+        <img id="mainImage" src="images/live1.jpg" alt="The Brave Little Abacus gallery image">
+        <p id="caption">The Brave Little Abacus</p>
+    </section>
 </main>
                         
 <footer>
