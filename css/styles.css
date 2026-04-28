@@ -274,11 +274,15 @@ border: 3px;
     height: auto;
     border-radius: 6px;
     flex-shrink: 0;
-border: 3px;
-  border-style: solid;
-  border-color: #768d57;
+	border: 3px;
+	border-style: solid;
+	border-color: #768d57;
 }
 
+.timeline-card caption {
+	text-align: center;
+	font-style: italic;
+}
 
 .timeline-card.featured {
     background-color: #3f5e3e;
