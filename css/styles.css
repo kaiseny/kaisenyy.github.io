@@ -280,7 +280,11 @@ border: 3px;
 }
 
 .timeline-card figcaption {
-	text-align: center;
+	border-top: none;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.1em;
 	font-style: italic;
 }
 
