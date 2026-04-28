@@ -279,7 +279,7 @@ border: 3px;
 	border-color: #768d57;
 }
 
-.timeline-card caption {
+.timeline-card figcaption {
 	text-align: center;
 	font-style: italic;
 }
