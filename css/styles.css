@@ -340,6 +340,51 @@ border: 3px;
     justify-content: center;     
 }
 
+/* Style rules for gallery */
+.gallery-display {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.gallery-display img {
+    display: block;
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto; /* centers it */
+    border: 2px solid #3f5e3e;
+    border-radius: 4px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+#caption {
+    font-size: 1.2em;
+    margin-top: 12px;
+}
+
+.gallery-thumbs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-thumbs img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #3f5e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery-thumbs img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+
+
 .e-link{
   margin: 20px auto 0;     
   text-align: center;      
