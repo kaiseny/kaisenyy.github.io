@@ -411,6 +411,10 @@ border: 3px;
 #list a {
   text-decoration: underline;
 }
+
+form {
+	width: auto;
+}
   
 /*Style rules for mobile viewport*/
 
