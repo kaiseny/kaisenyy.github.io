@@ -506,6 +506,12 @@ form {
     nav li a {
         padding: 0.5em;
     }
+	
+	/* Style rule for form */
+    form {
+        width: 70%;
+        margin: 0px auto;
+    }
 }
 
 
