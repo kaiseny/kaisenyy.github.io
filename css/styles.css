@@ -412,9 +412,6 @@ border: 3px;
   text-decoration: underline;
 }
 
-form {
-	width: auto;
-}
   
 /*Style rules for mobile viewport*/
 
@@ -540,6 +537,10 @@ form {
 		color: #3f5e3e;
 		background-color: #fff;
 	}
+
+	form {
+        width: auto;
+    }
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1920px), print {  
