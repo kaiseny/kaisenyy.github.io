@@ -170,6 +170,8 @@ border: 3px;
     display: inline-block;
 }
 
+/* Album style rules */
+
 .album {
     display: flex;
     align-items: flex-start;
@@ -177,12 +179,14 @@ border: 3px;
 }
 
 .album-info {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .album-info h3 {
-    margin-top: 0;
-	text-align: left;
+    margin: 0 0 10px 0;  
+    padding: 0; 
+    text-align: left; 
+	color: #3f5e3e;
 }
 
 .album-info ol {
@@ -190,26 +194,47 @@ border: 3px;
 }
 
 .cover {
-  width: 300px;
-  height: 300px;
-  display: block;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	height: auto;
+	display: block;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .round {
     border-radius: 6px;
 }
 
+/* Back style rules */
+
 .back {
     background-color: #f4f4f4;
     padding: 1%;
-    width: 100%;
-    margin: 10px auto;
     box-sizing: border-box; 
     clear: both;
-	border: 2px;
-    border-style: solid;
-    border-color: #3f5e3e ;
+    border-left: 6px solid #3f5e3e;
+    max-width: 1000px;
+    margin: 40px auto;
+    gap: 25px;
+}
+
+.album.back {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.back.featured {
+    background-color: #3f5e3e;
+    color: #fff;
+}
+
+.back.featured h2 {
+	text-align: center;
+}
+
+.back.featured p {
+	text-align: center;
+	font-size: 0.9em;
 }
 
 .backhead {
