@@ -583,6 +583,24 @@ border: 3px;
     }
 }
 
+.album.back {
+    display: flex !important;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.album.back .cover {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.album.back .album-info {
+    flex: 1;
+    max-width: 650px;
+}
+
     colors #3f5e3e, #768d57, #d29538, #896626); 
 
 
