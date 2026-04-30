@@ -17,6 +17,7 @@ Date: 02/01/2026
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -35,17 +36,26 @@ Date: 02/01/2026
     </div>
 </header>
 
-<nav>
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="History.html">History</a></li> 
-    <li><a href="Discog.html">Discography</a></li> 
-    <li><a href="Members.html">Members</a></li>
-    <li><a href="Gallery.html">Gallery</a></li>  
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="About.html">About</a></li>
-</ul>
+<nav class="navbar navbar-expand-md navbar-dark custom-nav">
+  <a class="navbar-brand" href="index.html">Brave Little Abacus Fan Site</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="History.html">History</a></li>
+      <li class="nav-item"><a class="nav-link" href="Discog.html">Discography</a></li>
+      <li class="nav-item"><a class="nav-link" href="Members.html">Members</a></li>
+      <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+    </ul>
+  </div>
 </nav>
+
 
 <!-- Use the main area to add the main content to the webpage -->
 <main>
@@ -81,7 +91,9 @@ Date: 02/01/2026
     <p><a href="mailto:example@gmail.edu" class ="contact">example@gmail.edu</a></p>
     <p>&copy; Copyright 2026. All Rights Reserved.</p>
 </footer>
-                        
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>                          
 </body>
 
 
