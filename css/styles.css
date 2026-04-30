@@ -230,11 +230,14 @@ border: 3px;
 
 .back.featured h2 {
 	text-align: center;
+    margin: 8px 0;
+    font-size: 1.6em;
 }
 
 .back.featured p {
 	text-align: center;
 	font-size: 0.9em;
+    line-height: 1.6;
 }
 
 .backhead {
