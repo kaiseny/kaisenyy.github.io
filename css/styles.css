@@ -155,10 +155,9 @@ a {
     height: auto;
     display: block;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-border: 3px;
-  border-style: solid;
-  border-color: #768d57;
-
+	border: 3px;
+	border-style: solid;
+	border-color: #768d57;
 }
 
 .home-links a:hover img {
@@ -247,6 +246,7 @@ border: 3px;
     max-width: 1000px;
     margin: 40px auto;
     gap: 25px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
 }
 
 .album.back {
