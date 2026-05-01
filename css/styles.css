@@ -178,6 +178,7 @@ a {
     gap: 25px;
 	background-color: #3f5e3e;
     color: #fff;
+	box-shadow: 0 4px 14px rgba(0,0,0,0.15);
 }
 
 .title-card h2 {
