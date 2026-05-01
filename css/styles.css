@@ -170,7 +170,7 @@ border: 3px;
     display: inline-block;
 }
 
-/* Album style rules */
+/* Album and table style rules */
 
 .album {
     display: flex;
@@ -202,6 +202,26 @@ border: 3px;
 
 .round {
     border-radius: 6px;
+}
+
+.track-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.track-table th,
+.track-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.track-table th {
+    background-color: #e8efe6;
+}
+
+.track-table tr:nth-child(even) {
+    background-color: #f4f4f4;
 }
 
 /* Back style rules */
