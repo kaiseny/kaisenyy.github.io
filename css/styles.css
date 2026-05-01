@@ -444,31 +444,57 @@ a {
 
 
 .e-link{
-  margin: 20px auto 0;     
-  text-align: center;
-  text-decoration: none;
+	margin: 20px auto 0;     
+	text-align: center;
+	text-decoration: none;
 }
 
 .e-link a{
-  display: inline-block;
-  background-color: #0066cc;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 18px;      
-  border-radius: 6px;     
+	display: inline-block;
+	background-color: #0066cc;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 18px;      
+	border-radius: 6px;     
 }
 
 .e-link a:hover {
-  background-color: #004c99;   
+	background-color: #004c99;   
 }
 
 #list h3 {
-  color: #3f5e3e
+	color: #3f5e3e
 }
 
 #list a {
-  text-decoration: underline;
+	text-decoration: underline;
+}
+
+/* Contact form style rules */
+fieldset {
+	border: 2px solid #3f5e3e;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #3f5e3e;
+    padding: 0 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
 }
 
   
