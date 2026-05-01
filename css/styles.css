@@ -229,6 +229,13 @@ border: 3px;
     background-color: #f4f4f4;
 }
 
+.track-note {
+    font-size: 0.9em;
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+
 /* Back style rules */
 
 .back {
