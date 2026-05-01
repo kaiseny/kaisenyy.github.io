@@ -169,6 +169,28 @@ a {
     display: inline-block;
 }
 
+/* Title card style rules */
+
+.title-card {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    gap: 25px;
+	background-color: #3f5e3e;
+    color: #fff;
+}
+
+.title-card h2 {
+	margin: 8px 0;
+    font-size: 1.6em;
+	text-align: center;
+}
+
+.title-card p {
+	line-height: 1.6;
+	text-align: center;
+}
+
 /* Album and table style rules */
 
 .album {
