@@ -400,6 +400,8 @@ a {
 .gallery-display {
     text-align: center;
     margin: 30px auto;
+	width: 70%;
+	height: 70%;
 }
 
 .gallery-display img {
