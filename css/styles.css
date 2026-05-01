@@ -438,7 +438,8 @@ border: 3px;
 
 .e-link{
   margin: 20px auto 0;     
-  text-align: center;      
+  text-align: center;
+  text-decoration: none;
 }
 
 .e-link a{
