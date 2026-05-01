@@ -58,7 +58,7 @@ Date: 02/01/2026
 
 <main>
 <!-- Use the main area to add the main content to the webpage -->
-  <div id="contact" class="back featured">
+  <div id="contact" class="back featured round">
     <h2>You can reach us at:</h2>
       <p class="tel-link mobile round">
       <a href="tel:18005551234">(808) 123-1234</a></p>
@@ -66,7 +66,7 @@ Date: 02/01/2026
       <p>Email: <a href="mailto:example@gmail.edu">example@gmail.edu</a></p>
   </div>
     
-    <div id="form" class="back">
+    <div id="form" class="back round">
         <h2>Complete the form below and we will contact you soon.</h2>
         <form class="form-grid">
             <fieldset>
@@ -80,9 +80,9 @@ Date: 02/01/2026
             </fieldset>
 
             <fieldset>
-                <legend>Message</legend>
-                
-            <textarea id="message" name="message" rows="5"></textarea>
+                <label for="message">Message:</label>
+                <input type="message" id="message" name="message" required>
+                <textarea id="message" name="message" rows="5"></textarea>
             </fieldset>
             <input type="submit" id="submit" value="Submit" class="btn">
         </form>
