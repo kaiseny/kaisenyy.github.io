@@ -508,18 +508,17 @@ textarea {
 }
 
 #submit {
-    background-color: #3f5e3e;
+    background-color: #0066cc;
     color: #fff;
     border: none;
     padding: 12px 25px;
     border-radius: 6px;
-    font-weight: bold;
     cursor: pointer;
     justify-self: center;
 }
 
 #submit:hover {
-    background-color: #2f4630;
+    background-color: #004c99;
 }
 
   
