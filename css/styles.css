@@ -364,6 +364,15 @@ a {
 	border-color: #768d57;
 }
 
+.timeline-card iframe {
+    display: block;
+    margin: 10px auto;    
+    width: 100%;
+    max-width: 640px;  
+    height: 400px;      
+    object-fit: cover;	
+}
+
 .timeline-card figcaption {
 	border-top: none;
     width: 100%;
