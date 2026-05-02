@@ -354,8 +354,8 @@ a {
     display: block;
     margin: 10px auto;    
     width: 100%;
-    max-width: 800px;  
-    height: 500px;      
+    max-width: 640px;  
+    height: 400px;      
     object-fit: cover;
     border-radius: 6px;
     flex-shrink: 0;
