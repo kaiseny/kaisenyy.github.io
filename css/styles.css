@@ -353,8 +353,10 @@ a {
 .timeline-card img {
     display: block;
     margin: 10px auto;    
-	width: auto;
-    height: auto;
+    width: 100%;
+    max-width: 400px;  
+    height: 250px;      
+    object-fit: cover;
     border-radius: 6px;
     flex-shrink: 0;
 	border: 3px;
