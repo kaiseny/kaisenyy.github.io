@@ -368,8 +368,8 @@ a {
     display: block;
     margin: 10px auto;    
     width: 100%;
-    max-width: 800px;  
-    height: 400px;      
+    max-width: 560px;  
+    height: 315px;      
     object-fit: cover;	
 }
 
